@@ -1,11 +1,11 @@
-import { createContext, useState } from "react";
+import React, { createContext, useState } from "react";
 import { Task } from "../../models/Task";
 
 type ToDoContextProviderProps = {
     children: React.ReactNode
 }
 
-export type ToDoContextProps = {
+type ToDoContextProps = {
     taskListState: Task[],
     setTaskListState: React.Dispatch<React.SetStateAction<Task[]>>;
 }
