@@ -10,7 +10,7 @@ const LandingPage = () => {
                 <section className={styles.section_container}>
 
                     <article className={styles.text_container}>
-                        <h1 className={styles.h1_text}>ToDo List</h1>
+                        <h1 className={styles.h1_text}>To Do List</h1>
                     </article>
 
 
